@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prakhar Verma - Resume</title>
+  <style>
+    :root {
+      --primary: #1f2937;
+      --secondary: #4b5563;
+      --accent: #3b82f6;
+      --bg: #f9fafb;
+      --card-bg: #ffffff;
+      --shadow: rgba(0, 0, 0, 0.05);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--primary);
+      padding: 2rem 5vw;
+      line-height: 1.7;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+      color: var(--primary);
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: var(--accent);
+      border-bottom: 1px solid #e5e7eb;
+      margin-bottom: 1rem;
+      padding-bottom: 0.4rem;
+    }
+
+    p {
+      margin-bottom: 0.6rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #2563eb;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-right: 1rem;
+      margin-top: 0.5rem;
+      font-weight: 500;
+    }
+
+    .section {
+      background-color: var(--card-bg);
+      padding: 1.5rem 2rem;
+      margin-top: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px var(--shadow);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .section:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    }
+
+    .title {
+      font-weight: 600;
+      font-size: 1.05rem;
+      margin-bottom: 0.3rem;
+      color: var(--primary);
+    }
+
+    .right {
+      float: right;
+      font-size: 0.9rem;
+      color: var(--secondary);
+    }
+
+    ul {
+      padding-left: 1.4rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 1.5rem;
+      }
+
+      .right {
+        float: none;
+        display: block;
+        margin-top: 0.3rem;
+      }
+
+      .contact a {
+        display: block;
+        margin-bottom: 0.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Prakhar Verma</h1>
+  <p><strong>Registration No.:</strong> 22BCE11208</p>
+  <p>MIG-30A, Aastha Colony, Moradabad, Uttar Pradesh</p>
+  <div class="contact">
+    <a href="mailto:prakharverma499@gmail.com">prakharverma499@gmail.com</a>
+    <a href="tel:+919368805624">+91-9368805624</a>
+    <a href="https://github.com/Pv200" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/prakhar-verma-420a44250/" target="_blank">LinkedIn</a>
+  </div>
+
+  <div class="section">
+    <h2>Education</h2>
+    <p><strong>Vellore Institute of Technology</strong>, Bhopal<br />
+    <em>B.Tech, Computer Science and Engineering</em>
+    <span class="right">Nov 2022 – Present</span><br />
+    CGPA: 8.64</p>
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <p><strong>Languages & Libraries:</strong> C++, Python, Java, TypeScript, JavaScript, HTML5, CSS3, JQuery, PyQt5, Tkinter, Visual Basic, NumPy, Pandas, scikit-learn, Matplotlib, Supabase, AWS RDS</p>
+    <p><strong>Tools & Frameworks:</strong> React.js, Node.js, Express.js, MySQL, .NET 7, Jupyter, MATLAB, QtDesigner, Bootstrap, Visual Studio</p>
+  </div>
+
+  <div class="section">
+    <h2>Experience</h2>
+    <p class="title">Quantitative Developer Intern — 2Cents Capital <span class="right">Jan 2025 – Present</span></p>
+    <ul>
+      <li>Led development of <em>Synapse</em>, a proprietary quantitative product for trading optimization.</li>
+      <li>Presented the architecture and business value to investors.</li>
+      <li>Designed and deployed alpha strategies under dynamic market conditions.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Projects</h2>
+
+    <p class="title">Multimodal Intent Detection — VIT Bhopal <span class="right">Sep 2024 – Ongoing</span></p>
+    <ul>
+      <li>Analyzed paralinguistic and facial cues to detect human intent.</li>
+      <li>Used CNNs and Librosa for non-verbal emotion classification.</li>
+    </ul>
+
+    <p class="title">FinanceCraft — Stock Prediction Tool <a href="https://github.com/Pv200/Finance-Craft---Stock-Prediction-and-analysis-Website">(GitHub)</a> <span class="right">Aug – Oct 2023</span></p>
+    <ul>
+      <li>Built an end-to-end platform using Node.js, JS, and ML algorithms.</li>
+      <li>Integrated Alpha Vantage API and models like Random Forest, SVM.</li>
+    </ul>
+
+    <p class="title">CEMARS — College Event Management System <a href="https://github.com/Pv200/College-event-management-and-rating-system-CEMARS-">(GitHub)</a> <span class="right">Apr – May 2024</span></p>
+    <ul>
+      <li>Developed with React, Express.js, MySQL.</li>
+      <li>Implemented sentiment analysis for feedback-based ranking.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Competitions & Workshops</h2>
+    <ul>
+      <li><strong>Ideathon – AI Club, VIT Bhopal:</strong> IoT device for visually impaired. <span class="right">Dec 2022</span></li>
+      <li><strong>Girlscript Summer of Code:</strong> Open-source web platforms and news APIs. <span class="right">Jun – Aug 2023</span></li>
+      <li><strong>ISRO NRSC Hyderabad:</strong> Satellite imagery analysis for disaster risk. <span class="right">Sep 2024</span></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Coursework & Certifications</h2>
+    <p><strong>Key Courses:</strong> Algorithms, Data Structures, DBMS, OS, AI/ML, Data Mining</p>
+    <p><strong>Online:</strong> Python (Coursera), Networking (Google), Advanced SQL (Mode)</p>
+  </div>
+
+</body>
+</html>
